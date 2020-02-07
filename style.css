@@ -1,12 +1,120 @@
-.body{
+
+nav{
+position: fixed;
+top: 0;
+right: 0;
+font-family: 'Barlow Condensed', sans-serif;
+font-weight: 700;
+text-transform: uppercase;
+list-style-type: none;
+background-color: hsl(207, 33%, 95%);
+padding: 25px 5% 25% 5%;
+border-radius: 0 0 0 45px;
+margin: 0px;
+}
+
+nav li{
+    display: inline;
+    padding: 30px;
+}
+
+nav a{
+    text-decoration: none;
+    color: hsl(230, 29%, 20%);
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+nav .navGrey{
+    color: hsl(231, 7%, 65%);
+}
+
+body{
     font-family: 'Barlow', sans-serif;
-    background-color: blue;
+    font-size: 18px;
+    color: hsl(230, 29%, 20%);
+    padding-top: 0px;
 }
 
-.h1{
+h1{
     font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 65px;
+    color: hsl(230, 29%, 20%);
+    text-transform: uppercase;
+    margin-top: 2%;
 }
 
-.attribution { font-size: 11px; text-align: center; }
+#container{
+    display: flex;
+    padding-top: 0px;
+}
+
+#textContent{
+    position: fixed;
+    width: 35%;
+    padding: 12.5% 2.5% 12.5% 10%;
+}
+
+#textContent img{
+    position: fixed;
+    top: 40px;
+}
+
+#imageContent{
+    position: fixed;
+    right: -100px;
+    width: 50%;
+    padding-top: 12.5%;
+}
+
+#description{
+    text-transform: uppercase;
+    letter-spacing: 0.25rem;
+    color: hsl(230, 11%, 40%);
+}
+
+#new{
+    letter-spacing: 0rem;
+    color: white;
+    background-color: hsl(230, 29%, 20%);
+    border-radius: 15px;
+    padding: 5px;
+    font-weight: 700;
+}
+
+#preview{
+    letter-spacing: 0.25rem;
+    text-transform: uppercase;
+    color: hsl(230, 11%, 40%);
+    padding-top: 15%;
+}
+
+.btn{
+    letter-spacing: 0rem;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    border: none;
+    background-color: hsl(0, 100%, 68%);
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 5%;
+}
+
+.btn:hover{
+    background-color: hsl(0, 95%, 75%)
+}
+
+.content{
+    color: hsl(230, 11%, 40%);
+    width: 50%;
+}
+
+.attribution { font-size: 11px; text-align: center; position: fixed; bottom: 0; left: 40%; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
